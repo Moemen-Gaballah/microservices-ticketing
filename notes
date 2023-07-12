@@ -23,3 +23,6 @@ kubectl get services -n ingress-nginx
 http://SERVICENAME.NAMESPACE.svc.cluster.local
 http://ingress-nginx-controller.ingress-nginx.svc.cluster.local
 
+kubectl get pods
+
+kubectl exec -it auth-depl-587dcb566f-db5q6 sh
