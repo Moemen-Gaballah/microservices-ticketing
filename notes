@@ -1,3 +1,9 @@
+dependency
+1- docker
+2- K8S
+3- skaffold
+
+
 skaffold dev
 
 kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
@@ -5,4 +11,15 @@ kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
 kubectl get secrets
 
 kubectl delete secret jwt-secret
+
+kubectl get pods
+
+kubectl delete pod Name
+
+kubectl get namespace
+
+kubectl get services -n ingress-nginx
+
+http://SERVICENAME.NAMESPACE.svc.cluster.local
+http://ingress-nginx-controller.ingress-nginx.svc.cluster.local
 
