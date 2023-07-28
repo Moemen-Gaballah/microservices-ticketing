@@ -69,7 +69,7 @@ it('creates a ticket with valid inputs', async () => {
 
     const title = 'testtttttt';
 
-    await request(app)
+    const response = await request(app)
         .post('/api/tickets')
         .set('Cookie', global.signin())
         .send({
