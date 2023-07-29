@@ -26,3 +26,15 @@ http://ingress-nginx-controller.ingress-nginx.svc.cluster.local
 kubectl get pods
 
 kubectl exec -it auth-depl-587dcb566f-db5q6 sh
+
+
+tsc --init command not found => npx tsc --init
+
+npx tsc --init
+
+kubectl get pods
+
+kubectl port-forward nats-depl-7c5cbcc7b-dm9wp 4222:4222
+
+-------------------------
+kubectl port-forward nats-depl-8548895dbb-mgbfg 4222:4222
