@@ -37,6 +37,6 @@ kubectl get pods
 kubectl port-forward nats-depl-7c5cbcc7b-dm9wp 4222:4222
 
 -------------------------
-kubectl port-forward nats-depl-6dbbbb7c5-ffq9f 4222:4222
-kubectl port-forward nats-depl-6dbbbb7c5-ffq9f 8222:8222
+kubectl port-forward nats-depl-66f9d869dd-69g9v 4222:4222
+kubectl port-forward nats-depl-66f9d869dd-69g9v 8222:8222
 localhost:8222/streaming
