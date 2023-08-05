@@ -2,7 +2,7 @@ import express, {Request, Response} from "express";
 import {body} from "express-validator";
 import {requireAuth, validateRequest} from "@mgticketing/common";
 import {Ticket} from "../models/ticket";
-import {TicketCreatedPublisher} from "./events/publishers/tickets-created-publisher";
+import {TicketCreatedPublisher} from "../events/publishers/tickets-created-publisher";
 import {natsWrapper} from '../nats-wrapper'
 
 
