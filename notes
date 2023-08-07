@@ -47,3 +47,7 @@ show dbs;
 use orders;
 db.tickets;
 db.tickets.find({});
+
+docker build -t moemengaballah/expiration .
+
+docker push moemengaballah/expiration
