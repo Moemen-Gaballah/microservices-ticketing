@@ -51,3 +51,7 @@ db.tickets.find({});
 docker build -t moemengaballah/expiration .
 
 docker push moemengaballah/expiration
+
+kubectl create secret generic stripe-secret --from-literal STRIPE_KEY=sk_test_51NcqlOCA7KChwv9Lfk1tqt1N5D93hYo2im066hfBgNlFX9cTIZ47ngUle66f22m7o1FVItZQ2Xf0fd7O4ijGvSfL00toxMa0Gn
+
+kubectl get secrets
