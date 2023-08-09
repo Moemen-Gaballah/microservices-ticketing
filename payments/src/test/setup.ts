@@ -14,7 +14,7 @@ process.env.STRIPE_KEY = 'sk_test_51NcqlOCA7KChwv9Lfk1tqt1N5D93hYo2im066hfBgNlFX
 let mongo: any
 beforeAll(async () => {
     process.env.JWT_KEY = 'asdfasdf';
-    const mongo = await MongoMemoryServer.create();
+    mongo = await MongoMemoryServer.create();
     const mongoUri = mongo.getUri();
 
     await mongoose.connect(mongoUri, {});
