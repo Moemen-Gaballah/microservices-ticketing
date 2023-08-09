@@ -37,8 +37,8 @@ kubectl get pods
 kubectl port-forward nats-depl-7c5cbcc7b-dm9wp 4222:4222
 
 -------------------------
-kubectl port-forward nats-depl-854546bd7b-4rfqd 4222:4222
-kubectl port-forward nats-depl-854546bd7b-4rfqd 8222:8222
+kubectl port-forward nats-depl-75fbb7dc56-dkvqs 4222:4222
+kubectl port-forward nats-depl-75fbb7dc56-dkvqs 8222:8222
 localhost:8222/streaming
 
 kubectl exec -it orders-mongo-depl-5b865bb86d-8cx92  -- mongosh
