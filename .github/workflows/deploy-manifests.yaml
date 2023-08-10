@@ -1,0 +1,15 @@
+name: deploy-manifests
+
+on:
+  push:
+    branches: 
+      - main
+    paths:
+      - 'infra/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+# todo Deploy to server or cluster
