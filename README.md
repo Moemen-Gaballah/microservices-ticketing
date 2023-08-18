@@ -21,6 +21,7 @@ in Windows OS path ` C:\Windows\System32\drivers\etc\hosts`
 CMD: `skaffold dev`
 maybe some exceptions like secret key stripe not found  
 CMD: `kubectl create secret generic stripe-secret --from-literal STRIPE_KEY=Your_Secret`
+HOST: `ticketing.dev`
 
 
 
